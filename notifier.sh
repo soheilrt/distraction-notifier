@@ -75,6 +75,7 @@ do
         distraction_counter=0
 
         sleep $distraction_notification_timeout
+        continue
     fi
     
     sleep $check_interval;
